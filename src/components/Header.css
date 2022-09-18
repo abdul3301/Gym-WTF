@@ -1,0 +1,46 @@
+.header_container {
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  position: sticky;
+  background-image: linear-gradient(
+    to right,
+    rgb(196, 5, 5) 10%,
+    rgb(176, 3, 3) 20%,
+    rgb(78, 0, 0) 70%
+  );
+}
+.header {
+  /* border: 1px solid; */
+  display: flex;
+  padding: 10px;
+  margin: 0px auto;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1250px;
+  color: rgb(145, 103, 103) !important;
+  font-size: large;
+}
+.header-tabs {
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+}
+.header-tabs > p {
+  margin-right: 40px;
+  margin-top: 2px;
+}
+.header > img {
+  border: 1px solid;
+  background-color: red;
+  margin-right: 600px;
+}
+.header-tabs > button {
+  background-image: linear-gradient(to left, orange, red);
+  color: rgb(220, 204, 204);
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 60px;
+}

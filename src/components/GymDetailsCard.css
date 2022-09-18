@@ -1,0 +1,10 @@
+.gdCard {
+  justify-content: space-between;
+  min-height: 120px;
+  width: 600px;
+  border-radius: 15px;
+  margin: 60px;
+  padding: 10px 20px;
+  display: flex;
+  background: linear-gradient(to right, rgb(124, 155, 124), rgb(111, 149, 111));
+}

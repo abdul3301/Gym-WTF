@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 170px;
+  background-color: rgb(7, 7, 7);
+  height: 100%;
+  font-size: large;
+}
+.footerLogoImage {
+  height: 45px;
+}
+
+.quickLinks > h3 {
+  color: white;
+}
+.explore > h3 {
+  color: white;
+}
+.contact > h2,
+span {
+  color: white;
+}

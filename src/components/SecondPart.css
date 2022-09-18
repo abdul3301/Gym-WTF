@@ -1,0 +1,104 @@
+.SecondPart {
+  position: relative;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.content1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  max-width: 1350px;
+  height: 35px;
+  background: none !important;
+  border-radius: 6px;
+  margin: 20px;
+  color: white !important;
+  padding: 30px 20px;
+  outline: none;
+  font-size: large;
+}
+.ant-input-lg {
+  background: none;
+  font-size: larger;
+  height: 30px;
+  color: antiquewhite;
+}
+.content2 {
+  display: flex;
+  flex-direction: row;
+  height: 1200px;
+}
+.gymCardData {
+  height: 95%;
+  overflow-y: scroll;
+  width: 70%;
+}
+.gymCardData::-webkit-scrollbar {
+  width: 10px;
+}
+.gymCardData::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+  background: none;
+}
+.gymCardData::-webkit-scrollbar-thumb {
+  background: rgb(161, 16, 16);
+  border-radius: 10px;
+}
+.filterPart {
+  width: 30%;
+  color: white;
+  padding: 35px;
+}
+
+.filterPart > p {
+  font-size: xx-large;
+  color: white;
+}
+.filterPart > h3 {
+  color: white;
+}
+.filter-searchBar {
+  background-color: rgb(60, 42, 42);
+  color: gray;
+  padding: 10px;
+  width: 300px;
+}
+.min-searchBar {
+  background-color: rgb(60, 42, 42);
+  color: gray;
+  padding: 10px;
+  margin: 10px;
+  height: 60px;
+  width: 100px;
+}
+.max-searchBar {
+  background-color: rgb(60, 42, 42);
+  color: gray;
+  padding: 10px;
+  margin: 10px;
+  height: 60px;
+  width: 100px;
+}
+
+.ant-select-selection-item {
+  background-color: rgb(60, 42, 42);
+  color: gray;
+}
+.ant-select-selector {
+  background: none !important;
+  border: none !important;
+}
